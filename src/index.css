@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+.rubik-font {
+  font-family: "Rubik", sans-serif;
+} 
