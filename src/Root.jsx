@@ -1,22 +1,19 @@
 import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
 import { Outlet } from 'react-router-dom';
+import NavBar from './Component/NavBar';
+import Footer from './Component/Footer';
 
 const Root = () => {
     return (
-        <div className="flex flex-col min-h-screen">
-            {/* Sticky Navbar */}
-            <div className="sticky top-0 z-50 bg-white shadow">
+        <div className="">
+            <div className="">
                 <NavBar />
             </div>
 
-            {/* Page Content */}
-            <main className="flex-grow">
+            <main className="w-6/12 mx-auto -mt-130 ml-145">
                 <Outlet />
             </main>
 
-            {/* Footer */}
             <Footer />
         </div>
     );

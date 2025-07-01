@@ -13,7 +13,7 @@ const NavBar = () => {
     };
 
     return (
-        <div className="rubik-font">
+        <div className="rubik-font bg-transparent relative h-screen">
             {/* Background Image */}
             <img src={bg} alt="Background" className="w-full h-[300px] object-cover" />
 
@@ -55,17 +55,10 @@ const NavBar = () => {
                     <div className="flex flex-col gap-3">
                         {/* View */}
                         <a href="/MD. Ebrahim Islam Shuvo 1.pdf" target="_blank" rel="noopener noreferrer">
-                            <div className="bg-[#FF014F] group flex items-center justify-center gap-2 text-white px-5 py-3 rounded-full text-lg cursor-pointer overflow-hidden relative">
+                            <div className="bg-[#FF014F] group transition-all duration-500 flex items-center justify-center gap-2 text-white px-5 py-3 rounded-full text-lg cursor-pointer overflow-hidden relative">
                                 <FaArrowDown className="group-hover:hidden translate-y-0 group-hover:-translate-y-2 transition-all duration-700" />
-                                <p className="z-10">View My CV</p>
+                                <p className="z-10">Download My CV</p>
                                 <FaArrowDown className="group-hover:block hidden translate-y-4 group-hover:translate-y-0 transition-all duration-700" />
-                            </div>
-                        </a>
-
-                        {/* Download */}
-                        <a href="/MD. Ebrahim Islam Shuvo 1.pdf" download>
-                            <div className="bg-black hover:bg-gray-800 transition-all text-white px-5 py-3 rounded-full text-lg text-center">
-                                Download CV
                             </div>
                         </a>
                     </div>
