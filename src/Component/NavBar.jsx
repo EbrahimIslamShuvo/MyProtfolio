@@ -18,7 +18,7 @@ const NavBar = () => {
             <img src={bg} alt="Background" className="w-full h-[300px] object-cover" />
 
             {/* Main Content */}
-            <div className="w-10/12 mx-auto flex flex-col md:flex-row items-start gap-10 -mt-32 relative z-50">
+            <div className="w-10/12 mx-auto flex flex-col md:flex-row items-start gap-10 -mt-40 relative z-50">
                 {/* Profile Card */}
                 <div className="flex flex-col items-center gap-7 rounded-md w-[375px] py-10 bg-white border-2 border-gray-400 shadow shadow-gray-300">
                     <div className="bg-[#311D26] rounded-xl w-[300px] h-[300px] overflow-hidden">
@@ -65,9 +65,9 @@ const NavBar = () => {
                 </div>
 
                 {/* Navigation Links */}
-                <div className="flex gap-6 flex-wrap bg-white rounded-md px-10 py-5 mt-20 shadow-2xl border-2 border-gray-400">
+                <div className="flex gap-6 flex-wrap bg-white rounded-md px-10 py-5 mt-25 shadow-2xl border-2 border-gray-400">
                     {[
-                        { name: "about", label: "My About", path: "/about" },
+                        { name: "about", label: "My About", path: "/" },
                         { name: "resume", label: "My Resume", path: "/resume" },
                         { name: "work", label: "My Work", path: "/work" },
                         { name: "content", label: "My Content", path: "/content" },
