@@ -38,18 +38,26 @@ const NavBar = () => {
 
                         {/* Social Links */}
                         <div className="flex justify-between items-center w-7/12 mx-auto text-xl text-black">
-                            <div className="bg-gray-300 hover:bg-[#FF014F] hover:text-white duration-500 hover:-translate-y-2 p-3 rounded-full cursor-pointer">
-                                <FaLinkedinIn />
-                            </div>
-                            <div className="bg-gray-300 hover:bg-[#FF014F] hover:text-white duration-500 hover:-translate-y-2 p-3 rounded-full cursor-pointer">
-                                <FaFacebookF />
-                            </div>
-                            <div className="bg-gray-300 hover:bg-[#FF014F] hover:text-white duration-500 hover:-translate-y-2 p-3 rounded-full cursor-pointer">
-                                <IoMdMailOpen />
-                            </div>
-                            <div className="bg-gray-300 hover:bg-[#FF014F] hover:text-white duration-500 hover:-translate-y-2 p-3 rounded-full cursor-pointer">
-                                <FaYoutube />
-                            </div>
+                            <a href="www.linkedin.com/in/ebrahim-islam-shuvo-0300961a8">
+                                <div className="bg-gray-300 hover:bg-[#FF014F] hover:text-white duration-500 hover:-translate-y-2 p-3 rounded-full cursor-pointer">
+                                    <FaLinkedinIn />
+                                </div>
+                            </a>
+                            <a href="https://www.facebook.com/ebrahim.islam.2003/">
+                                <div className="bg-gray-300 hover:bg-[#FF014F] hover:text-white duration-500 hover:-translate-y-2 p-3 rounded-full cursor-pointer">
+                                    <FaFacebookF />
+                                </div>
+                            </a>
+                            <a href="">
+                                <div className="bg-gray-300 hover:bg-[#FF014F] hover:text-white duration-500 hover:-translate-y-2 p-3 rounded-full cursor-pointer">
+                                    <IoMdMailOpen />
+                                </div>
+                            </a>
+                            <a href="">
+                                <div className="bg-gray-300 hover:bg-[#FF014F] hover:text-white duration-500 hover:-translate-y-2 p-3 rounded-full cursor-pointer">
+                                    <FaYoutube />
+                                </div>
+                            </a>
                         </div>
 
                         {/* CV Buttons */}
@@ -80,11 +88,10 @@ const NavBar = () => {
                                 key={link.name}
                                 to={link.path}
                                 onClick={() => handleActive(link.name)}
-                                className={`px-8 py-5 rounded-md text-xl transition-all duration-300 ${
-                                    active === link.name
-                                        ? "bg-[#FF014F] text-white"
-                                        : "bg-gray-200 text-black"
-                                }`}
+                                className={`px-8 py-5 rounded-md text-xl transition-all duration-300 ${active === link.name
+                                    ? "bg-[#FF014F] text-white"
+                                    : "bg-gray-200 text-black"
+                                    }`}
                             >
                                 {link.label}
                             </NavLink>
