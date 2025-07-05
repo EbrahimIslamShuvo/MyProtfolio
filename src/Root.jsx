@@ -10,7 +10,7 @@ const Root = () => {
                 <NavBar />
             </div>
 
-            <main className="w-6/12 mx-auto -mt-130 ml-145">
+            <main className="w-6/12 mx-auto -mt-130 ml-145 relative z-50">
                 <Outlet />
             </main>
 
