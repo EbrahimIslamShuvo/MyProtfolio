@@ -38,10 +38,13 @@ const NavBar = () => {
 
                         {/* Social Links */}
                         <div className="flex justify-between items-center w-7/12 mx-auto text-xl text-black">
-                            <a href="https://www.linkedin.com/in/ebrahim-islam-shuvo-0300961a8" target="_blank" rel="noopener noreferrer">
-                                <div className="bg-gray-300 hover:bg-[#FF014F] hover:text-white duration-500 hover:-translate-y-2 p-3 rounded-full cursor-pointer dark:bg-gray-700">
-                                    <FaLinkedinIn />
-                                </div>
+                            <a
+                                href="https://www.linkedin.com/in/ebrahim-islam-shuvo-0300961a8"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-gray-300 dark:bg-gray-700 hover:bg-[#FF014F] hover:text-white duration-500 hover:-translate-y-2 p-3 rounded-full cursor-pointer"
+                            >
+                                <FaLinkedinIn />
                             </a>
                             <a href="https://www.facebook.com/ebrahim.islam.2003/" target="_blank" rel="noopener noreferrer">
                                 <div className="bg-gray-300 hover:bg-[#FF014F] hover:text-white duration-500 hover:-translate-y-2 p-3 rounded-full cursor-pointer dark:bg-gray-700">
