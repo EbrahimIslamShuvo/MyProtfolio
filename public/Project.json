@@ -14,5 +14,29 @@
     "description": "This is a Jewelary website where users can browse and purchase various jewelry items. ",
     "live_link": "mikajewels.netlify.app",
     "github_link": "https://github.com/EbrahimIslamShuvo/Mika_Jewels"
+  },
+  {
+    "id": 3,
+    "image": "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/682ddbc84dc9be0008261583/screenshot_2025-05-21-13-57-54-0000.webp&fit=cover&h=500&q=40&w=800",
+    "name": "PetShop Ziggy",
+    "description": "This is a pet shop website where users can browse and purchase various pet products.",
+    "live_link": "pattypet.netlify.app",
+    "github_link": "https://github.com/EbrahimIslamShuvo/PetShop-Website"
+  },
+  {
+    "id": 4,
+    "image": "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/682c00ba836bbe0008e6b173/screenshot_2025-05-20-04-10-59-0000.webp&fit=cover&h=500&q=40&w=800",
+    "name": "Newspaper",
+    "description": "This is a newspaper website where users can read the latest news articles and updates on different fields.",
+    "live_link": "newsbanglabd.netlify.app",
+    "github_link": "https://github.com/EbrahimIslamShuvo/Newspaper"
+  },
+  {
+    "id": 4,
+    "image": "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/681d10f6d58655000883333a/screenshot_2025-05-08-20-16-29-0000.webp&fit=cover&h=500&q=40&w=800",
+    "name": "Lineman",
+    "description": "This is a service website where users can book services like electrician, plumber, etc.",
+    "live_link": "lineman.netlify.app",
+    "github_link": "https://github.com/EbrahimIslamShuvo/LineMan"
   }
 ]
