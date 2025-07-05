@@ -17,7 +17,7 @@ const Footer = () => {
                     {/* Social Icons */}
                     <div className="flex gap-4 text-xl text-black dark:text-white">
                         <a
-                            href="www.linkedin.com/in/ebrahim-islam-shuvo-0300961a8"
+                            href="https://www.linkedin.com/in/ebrahim-islam-shuvo-0300961a8"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-gray-300 dark:bg-gray-700 hover:bg-[#FF014F] hover:text-white duration-500 hover:-translate-y-2 p-3 rounded-full cursor-pointer"
@@ -39,7 +39,7 @@ const Footer = () => {
                             <IoMdMailOpen />
                         </a>
                         <a
-                            href="https://youtube.com"
+                            href="https://www.youtube.com/@ebrahimislamshuvo"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-gray-300 dark:bg-gray-700 hover:bg-[#FF014F] hover:text-white duration-500 hover:-translate-y-2 p-3 rounded-full cursor-pointer"
