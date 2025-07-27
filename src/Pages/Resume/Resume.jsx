@@ -57,8 +57,8 @@ const Resume = () => {
                 <Header name={"My Education"}></Header>
                 {/* Training History */}
                 <div className="mt-5" data-aos="fade-right">
-                    <h1 className='rubik-font text-4xl'>Training History</h1>
-                    <div className="mt-5 grid grid-cols-2 gap-5" data-aos="fade-up">
+                    <h1 className='rubik-font text-gray-300 text-4xl'>Training History</h1>
+                    <div className="mt-5 grid md:grid-cols-2 gap-5" data-aos="fade-up">
                         <CardTwo level={"EDGE Machine Learning Training"} institute={"Jagannath University"} year={"2025"}></CardTwo>
                         <CardTwo level={"MERN Full Stack Development"} institute={"BDCalling Academy"} year={"2025"}></CardTwo>
                         <CardTwo level={"App Development With Flutter"} institute={"Ostad"} year={"2024"}></CardTwo>
@@ -66,7 +66,7 @@ const Resume = () => {
                 </div>
                 {/* Skill  */}
                 <div className="mt-10" data-aos="fade-left">
-                    <h1 className='rubik-font text-4xl '>My Skills</h1>
+                    <h1 className='rubik-font text-gray-300 mb-4 text-4xl '>My Skills</h1>
                     <div className="grid md:grid-cols-2 gap-8" data-aos="fade-up">
                         {skills.map((skill, idx) => (
                             <div key={skill.name} className="relative group bg-white p-5 rounded-xl shadow-md transition-transform duration-300 hover:scale-105">
@@ -74,7 +74,7 @@ const Resume = () => {
                                     <h1 className='text-2xl font-semibold mt-2 mb-2 text-gray-800'>{skill.name}</h1>
                                     <span ref={el => percentRefs.current[idx] = el} className="text-xl font-bold text-[#FF014F] transition-all duration-500">0%</span>
                                 </div>
-                                <div className="w-full bg-gray-200 rounded-full h-3 dark:bg-gray-700 mt-2 overflow-hidden">
+                                <div className="w-full bg-gray-200 rounded-full h-3 mt-2 overflow-hidden">
                                     <div
                                         ref={el => barRefs.current[idx] = el}
                                         className="bg-gradient-to-r from-[#FF014F] via-pink-400 to-[#FF014F] h-3 rounded-full shadow-lg"
@@ -98,7 +98,7 @@ const Resume = () => {
                 </div>
                 {/* academic background */}
                 <div className="mt-10" data-aos="fade-right">
-                    <h1 className='rubik-font text-4xl'>Academic History</h1>
+                    <h1 className='rubik-font text-gray-300 text-4xl'>Academic History</h1>
                     <div className="mt-5 grid gap-5" data-aos="fade-up">
                         <CardTwo level={"Bechalor of Computer Science and Engineering"} institute={"Inaternational University of Business Agriculture and Technology"} year={"2022 - Present"}></CardTwo>
                         <CardTwo level={"Higher Secondary Certificate"} institute={"Dhaka Imperial College"} year={"2019 - 2021"}></CardTwo>
@@ -107,7 +107,7 @@ const Resume = () => {
                 </div>
                 {/* certificate */}
                 <div className="mt-10">
-                    <h1 className='rubik-font text-4xl'>Certificates</h1>
+                    <h1 className='rubik-font text-gray-300 text-4xl'>Certificates</h1>
                     <div className="grid grid-cols-2 gap-5 mt-5">
                         <img src={icpc} alt="" />
                         <img src={ostad} alt="" />

@@ -6,14 +6,14 @@ import ScrollToTop from './Component/ScrollToTop';
 
 const Root = () => {
     return (
-        <div className="">
+        <div className="bg-black">
             <ScrollToTop />
             <div className="">
                 <div className="">
                     <NavBar />
                 </div>
 
-                <main className="w-6/12 mx-auto -mt-130 ml-145 relative z-50">
+                <main className="md:w-6/12 w-10/12 mt-10 mx-auto md:-mt-130 md:ml-145 relative z-50">
                     <Outlet />
                 </main>
 

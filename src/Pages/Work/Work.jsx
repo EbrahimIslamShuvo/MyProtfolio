@@ -6,7 +6,7 @@ const Work = () => {
     const { projects } = useProject();
     return (
         <div className="">
-            <h1 className='text-center text-2xl'>NB: For Better experience turn your pc theme into Light</h1>
+            <h1 className='text-center text-white text-2xl'>NB: For Better experience turn your pc theme into Light</h1>
             <div className="flex flex-wrap justify-center">
                 {
                     projects?.map(project => (
